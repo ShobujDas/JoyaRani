@@ -259,7 +259,7 @@ body{
 /*************Question Part*****************/
 
 /* *****************Explanation********************** */
-/* .explanation{
+.explanation{
    background-image: url(img/banner4.jpg);
    background-color: gray;
    background-position: center center;
@@ -283,7 +283,7 @@ body{
    text-align: justify;
    color: white;
    font-size: 30px;
-} */
+}
 
 /* *****************Explanation********************** */
 
@@ -350,7 +350,7 @@ body{
    top: 0;
  }
  .part2 .image1{
-    background-image: url(img/propose.jpg);
+    background-image: url(img/ban03.jpg);
     background-position: center center;
     background-size: cover;
    position: relative;
@@ -373,7 +373,7 @@ body{
    height: 100%;
    background: pink;
    z-index: 1;
-   animation: open 7s linear infinite;
+   animation: open 10s linear infinite;
    animation-fill-mode: forwards;
  }
  .part2 .image1::before{
@@ -385,7 +385,7 @@ body{
    height: 100%;
    background: pink;
    z-index: 1;
-   animation: open 7s linear infinite;
+   animation: open 10s linear infinite;
    animation-fill-mode: forwards;
  }
  @keyframes open {
@@ -495,6 +495,26 @@ body{
 /*End Contact section*/
 
 
+/* Congratulation */
+.cngratulation{
+   text-align: center;
+}
+.cngratulation a{
+   tdisplay: inline-block;
+   background: crimson;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+   font-size: 35px;
+   padding: 0px 20px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 3px 3px gray;
+   margin-bottom: 20px;
+   text-decoration: none;
+   color: antiquewhite;
+}
+/* Congratulation */
+
+
 
 
 /*Footer section*/
@@ -512,7 +532,9 @@ body{
    height: 100px;
    margin: auto;
    border-radius: 50%;
-   background-image: url(img/ban02.jpg);
+   background-image: url(img/Shobuj.jpg);
+   background-position: center center;
+   background-size: cover;
 }
 .footer .my-img img{
    width: 100%;
@@ -726,3 +748,39 @@ body{
    padding-top: 30px;
 }
 /***********************Index3********************/
+/***********************Index4********************/
+.congratulation{
+   height: auto;
+   width: 350px;
+   margin: auto;
+   box-shadow: 1px 1px 3px 3px pink;
+   padding: 10px;
+   margin-top: 5px;
+   border-radius: 5px;
+   background-image: url(img/ban02.jpg);
+   background-size: cover;
+   background-position: center center;
+}
+
+.congratulation h1{
+   text-align: center;
+   font-size: 30px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   color: white;
+   background: crimson;
+   display: inline;
+   margin-left: 38px;
+   padding: 10px 15px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 3px 3px pink;
+}
+.congratulation p{
+   text-align: justify;
+   font-size: 30px;
+   font-weight: 500;
+   font-family: 'Baloo Da 2', cursive;
+   color: darkblue;
+   padding-top: 30px;
+}
+/***********************Index4********************/
